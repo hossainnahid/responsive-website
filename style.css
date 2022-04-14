@@ -1,0 +1,143 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    font-family: 'Work Sans', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.212),rgba(9, 0, 128, 0.171)),url(home.jpg);
+ 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0,0,0,0.3);
+}
+.banner-content h1{
+    font-size: 70px;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: rgba(0, 89, 255, 0.596);
+}
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background-color: rgb(0, 89, 255);
+    color: white;
+    transform: scale(1.1);
+}
+.banner-container{
+    height: 100vh;
+}
+
+/* header ends */
+
+/* feature start */
+.features{
+    background-color: #ffeaa7;
+    
+}
+.feature-content{
+    border: 1px solid #e84393;
+    border-radius: 5px;
+    margin:8%;
+    padding: 15px;
+    transition: .4s;
+}
+.feature-content:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon-design{
+    background-color: #d63031;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/* feature-ends */
+/* about-section */
+.hr-design{
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+    
+}
+#about{
+    background-color: #ffeaa7;
+}
+.about-tittle{
+    margin-bottom: 0;
+    padding-top: 4%;
+    font-weight: bolder;
+}
+.basic-desc{
+    margin-bottom: 0;
+}
+/* about-section-end */
+
+/* tutoial */
+#tutorial{
+    padding: 3% 10%;
+    background-color: #81ecec;
+}
+.card{
+    transition: .4s;
+    border: 1px solid #e84393;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/* tutorial-ends */
+
+/* feedback-start */
+#feedback{
+    background-color: #00cec9;
+}
+
+.feedback-img{
+    width: 120px;
+    height: auto;
+}
+.carousel-item{
+    text-align: center;
+   padding: 7% 15%;
+}
+/* feedback-ends */
+/* contact */
+#contact{
+    background-color:#00cec9;
+    padding: 4% 10%;
+}
+.form-group{
+    font-weight: bold;
+}
+/* contact-end */
+.footer{
+    padding: 1% 10%;
+    background-color: #192e2e;
+}
+.footer a{
+    margin: 0 3px;
+    color: white;
+}
+.footer a:hover{
+    color: #d63031;
+}
